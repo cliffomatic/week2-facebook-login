@@ -19,6 +19,16 @@
 		BB0599B21959E8A10000779E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB05999A1959E8A10000779E /* UIKit.framework */; };
 		BB0599BA1959E8A10000779E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB0599B81959E8A10000779E /* InfoPlist.strings */; };
 		BB0599BC1959E8A10000779E /* week2_facebook_loginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0599BB1959E8A10000779E /* week2_facebook_loginTests.m */; };
+		BB737FA5195E28CA00AA15AD /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB737FA3195E28CA00AA15AD /* ComposeViewController.m */; };
+		BB737FA6195E28CA00AA15AD /* ComposeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB737FA4195E28CA00AA15AD /* ComposeViewController.xib */; };
+		BB87C889195CCA7E00C23A63 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87C887195CCA7E00C23A63 /* MainViewController.m */; };
+		BB87C88A195CCA7E00C23A63 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB87C888195CCA7E00C23A63 /* MainViewController.xib */; };
+		BB87C893195CF7C400C23A63 /* MyFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB87C891195CF7C400C23A63 /* MyFeedViewController.m */; };
+		BB87C894195CF7C400C23A63 /* MyFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB87C892195CF7C400C23A63 /* MyFeedViewController.xib */; };
+		BBA04A01195D3A8400B8214E /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA049FF195D3A8400B8214E /* MoreViewController.m */; };
+		BBA04A02195D3A8400B8214E /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA04A00195D3A8400B8214E /* MoreViewController.xib */; };
+		BBBBDC271962415F006C9F02 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBBDC251962415F006C9F02 /* MessagesViewController.m */; };
+		BBBBDC281962415F006C9F02 /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBBBDC261962415F006C9F02 /* MessagesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		BB0599B71959E8A10000779E /* week2-facebook-loginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "week2-facebook-loginTests-Info.plist"; sourceTree = "<group>"; };
 		BB0599B91959E8A10000779E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB0599BB1959E8A10000779E /* week2_facebook_loginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = week2_facebook_loginTests.m; sourceTree = "<group>"; };
+		BB737FA2195E28CA00AA15AD /* ComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		BB737FA3195E28CA00AA15AD /* ComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		BB737FA4195E28CA00AA15AD /* ComposeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeViewController.xib; sourceTree = "<group>"; };
+		BB87C886195CCA7E00C23A63 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BB87C887195CCA7E00C23A63 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BB87C888195CCA7E00C23A63 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		BB87C890195CF7C400C23A63 /* MyFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyFeedViewController.h; path = ../MyFeedViewController.h; sourceTree = "<group>"; };
+		BB87C891195CF7C400C23A63 /* MyFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyFeedViewController.m; path = ../MyFeedViewController.m; sourceTree = "<group>"; };
+		BB87C892195CF7C400C23A63 /* MyFeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyFeedViewController.xib; path = ../MyFeedViewController.xib; sourceTree = "<group>"; };
+		BBA049FE195D3A8400B8214E /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		BBA049FF195D3A8400B8214E /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		BBA04A00195D3A8400B8214E /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		BBBBDC241962415F006C9F02 /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		BBBBDC251962415F006C9F02 /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		BBBBDC261962415F006C9F02 /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessagesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +135,21 @@
 				BB0599A51959E8A10000779E /* AppDelegate.h */,
 				BB0599A61959E8A10000779E /* AppDelegate.m */,
 				BB0599A81959E8A10000779E /* Images.xcassets */,
+				BB87C886195CCA7E00C23A63 /* MainViewController.h */,
+				BB87C887195CCA7E00C23A63 /* MainViewController.m */,
+				BB87C888195CCA7E00C23A63 /* MainViewController.xib */,
+				BBBBDC241962415F006C9F02 /* MessagesViewController.h */,
+				BBBBDC251962415F006C9F02 /* MessagesViewController.m */,
+				BBBBDC261962415F006C9F02 /* MessagesViewController.xib */,
+				BB87C890195CF7C400C23A63 /* MyFeedViewController.h */,
+				BB87C891195CF7C400C23A63 /* MyFeedViewController.m */,
+				BB87C892195CF7C400C23A63 /* MyFeedViewController.xib */,
+				BB737FA2195E28CA00AA15AD /* ComposeViewController.h */,
+				BB737FA3195E28CA00AA15AD /* ComposeViewController.m */,
+				BB737FA4195E28CA00AA15AD /* ComposeViewController.xib */,
+				BBA049FE195D3A8400B8214E /* MoreViewController.h */,
+				BBA049FF195D3A8400B8214E /* MoreViewController.m */,
+				BBA04A00195D3A8400B8214E /* MoreViewController.xib */,
 				BB05999D1959E8A10000779E /* Supporting Files */,
 			);
 			path = "week2-facebook-login";
@@ -219,7 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA04A02195D3A8400B8214E /* MoreViewController.xib in Resources */,
+				BB737FA6195E28CA00AA15AD /* ComposeViewController.xib in Resources */,
 				BB0599A11959E8A10000779E /* InfoPlist.strings in Resources */,
+				BBBBDC281962415F006C9F02 /* MessagesViewController.xib in Resources */,
+				BB87C88A195CCA7E00C23A63 /* MainViewController.xib in Resources */,
+				BB87C894195CF7C400C23A63 /* MyFeedViewController.xib in Resources */,
 				BB0599A91959E8A10000779E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +285,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0599A71959E8A10000779E /* AppDelegate.m in Sources */,
+				BB87C889195CCA7E00C23A63 /* MainViewController.m in Sources */,
+				BB87C893195CF7C400C23A63 /* MyFeedViewController.m in Sources */,
+				BB737FA5195E28CA00AA15AD /* ComposeViewController.m in Sources */,
 				BB0599A31959E8A10000779E /* main.m in Sources */,
+				BBA04A01195D3A8400B8214E /* MoreViewController.m in Sources */,
+				BBBBDC271962415F006C9F02 /* MessagesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +410,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "week2-facebook-login/week2-facebook-login-Prefix.pch";
 				INFOPLIST_FILE = "week2-facebook-login/week2-facebook-login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -373,6 +424,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "week2-facebook-login/week2-facebook-login-Prefix.pch";
 				INFOPLIST_FILE = "week2-facebook-login/week2-facebook-login-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +489,7 @@
 				BB0599C11959E8A10000779E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB0599C21959E8A10000779E /* Build configuration list for PBXNativeTarget "week2-facebook-loginTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +498,7 @@
 				BB0599C41959E8A10000779E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
