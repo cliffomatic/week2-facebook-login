@@ -5,6 +5,7 @@ This is the week 2 homework.
 It definitely took me ove 10 hours this week... lost count around 12.  Spent a lot of time helping other people.  I had a lot of trouble with next a Navigation Controller (top bar) inside a tabControllerBar
 I want to know how to position the buttons on the navigation once and not have to put them on each page.  Same with title color and attributes.
 Here is the image walkthrough
+
 ![animated gif](http://i.imgur.com/sI3734I.gif)
 
 -----------------
